@@ -1,0 +1,36 @@
+.picture_item {
+    width: 30%;
+}
+
+.picture_item_header {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.picture_item_description {
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.picture_item_image {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .picture_item {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .picture_item_header {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .picture_item_header {
+        font-size: 50px;
+    }
+}

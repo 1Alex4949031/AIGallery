@@ -1,0 +1,33 @@
+.gallery_item_direction {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery_item_text {
+    letter-spacing: 30px;
+    font-weight: bold;
+    margin-left: 5%;
+    font-size: 90px;
+}
+
+
+@media (max-width: 768px) {
+    .gallery_item {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .gallery_item_text {
+        font-size: 70px;
+        letter-spacing: 25px;
+    }
+}
+
+@media (max-width: 425px) {
+    .gallery_item_text {
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+}
